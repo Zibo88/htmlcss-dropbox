@@ -16,16 +16,30 @@ img {
     width: 100%;
 }
 
-.btn-small {
+.container-large {
+    width: 70%;
+    margin: 80px auto 0 auto;
+
+    /* test */
+    /* background-color: lightcoral; */
+
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+.text {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.btn-large {
+    font-size: 11px;
     background-color: #0160ff;
     color: white;
-    padding: 12px 8px;
+    padding: 6px;
 }
-
-.container-large {
-
-}
-
 
 /* -----HEADER----- */
 
@@ -37,15 +51,7 @@ header {
     top:0;
     left: 0;
     z-index: 1;
-
-
-   
-    
-
-    
 }
-
-
 
 nav {
     width: calc (100% / 2);
@@ -70,7 +76,25 @@ nav img {
 
 .header-menu-left li, .header-menu-right li{
     padding: 0 20px;
-    font-size: 13px;
+    font-size: 12px;
+    font-weight: 500;  
+}
+
+.header-menu-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu-right a{
+    text-decoration: none;
+    color: black;
+        
+}
+
+#btn-small {
+    background-color: #0160ff;
+    color: white; 
+    padding: 8px;
 }
 
 /* header menu right */
@@ -85,35 +109,96 @@ nav img {
 
 /* -----MAIN----- */
 
-main{
+.margin-section{
     margin-top:80px auto 0 auto;
 }
+
+/* -----jambotron----- */
 
 .jambotron {
     height: 500px;
     background-color: #b3d0e7;
-
-}
-
-.container-large {
-    width: 70%;
-    margin: 80px auto 0 auto;
-
-    /* test */
-    background-color: lightcoral;
-
+    
 }
 
 h1 {
-    text-align: center;
     padding-top: 45px;
     padding-bottom: 30px;
+    font-size: 56px;
 }
 
 .columns {
-    width: calc(100% / 2);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-small {
+    width: 26%;
+
+
+    /* tes */
+    /* height: 200px;
+    background-color: pink;
+    border: 1px solid black; */
+}
+
+.col-small i {
+    margin-top: 25px;
+    font-size: 33px;
+}
+
+#withdrawal {
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+
+.col-large {
+    width: 68%;
+
+    /* test */
+    /* background-color: blueviolet;
+    height: 200px;
+    border: 1px solid; */
+}
+
+.col-large img {
+    width: 85%;
+}
+
+/* -----section2----- */
+
+
+.type-of-billing {
+    font-size: 11px;
+    margin-top: 40px;
+    
+}
+
+.type-of-billing span {
+    padding: 0 8px;
+}
+
+
+.check-strong {
+    width: 5px;
+    height: 5px;
+    border: 5px solid #0160ff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.check-light {
+    width: 5px;
+    height: 5px;
+    border: 5px solid lightgray;
+    border-radius: 50%;
+    display: inline-block;
 
 }
+
+
 
 
 
