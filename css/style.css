@@ -173,7 +173,7 @@ h1 {
 
 
 .section-title.section2 {
-    margin-top: 90px;
+    padding-top: 90px;
 }
 
 
@@ -407,6 +407,16 @@ h1 {
 
 .grid-items .text {
     margin-top: 20px;
+}
+
+.container-small .slogan-quarta-sezione {
+    margin: 70px 0 30px 0;
+    font-size: 35px;
+}
+
+.client-link {
+    font-size: 10px;
+    color: #0160ff;
 }
 
 
