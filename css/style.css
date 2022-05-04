@@ -251,7 +251,7 @@ h1 {
 }
 .features ul {
     list-style-type: none;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .features li {
