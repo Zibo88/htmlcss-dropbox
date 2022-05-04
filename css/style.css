@@ -181,43 +181,132 @@ h1 {
 
 
 .check-strong {
-    width: 5px;
-    height: 5px;
-    border: 5px solid #0160ff;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 3px solid #0160ff;
     border-radius: 50%;
     display: inline-block;
 }
 
 .check-light {
-    width: 5px;
-    height: 5px;
-    border: 5px solid lightgray;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border: 3px solid lightgray;
     border-radius: 50%;
     display: inline-block;
 
 }
 
+/* tipologia di offerte */
+
 .offers-type {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    
-    
-     
+    margin-top: 20px;     
 }
 
+/* colonne dei prodotti */
+
 .products {
-    width: calc( (100% / 3) - 10px);
-    display: flex; 
+    width: calc( (100% / 3) - 25px);
     border: 1px solid #e2e2e3;
 }
 
-.single {
+/* tipologia di prodotto */
+.single, .team{
     width: 100%;
     text-align: center;
-    font-size: 10px;
+    font-size: 11px;
     padding: 8px 0;
+    border-bottom: 1px solid #e2e2e3;
 }
+
+.typology {
+    padding: 20px 0 50px 15px;
+   
+}
+
+.typology h3 {
+    padding: 10px 0;
+    font-size: 17px;
+}
+
+.price {
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.subtitle-price {
+    font-size: 9px;
+    margin-top: 10px;
+    color: #87949f;
+}
+
+.features {
+    margin-top: 40px;
+    font-size: 10px;
+}
+.features ul {
+    list-style-type: none;
+    margin-bottom: 70px;
+}
+
+.features li {
+    padding-top: 10px;
+    
+}
+
+.features .btn-large{
+    margin-right: 45px;
+    text-align: center;
+}
+
+.shop {
+    margin: 30px 0;
+}
+
+.shop a {
+    color: #0160ff;
+    padding-left: 3px;
+}
+
+.divider {
+    width: 20%;
+    color: #e2e2e3;
+}
+
+
+.hilights h4 {
+    font-size: 11px;
+    margin: 30px 0;
+}
+
+.hilights ul {
+    list-style-type:none;
+    font-size: 10px;
+}
+
+.hilights-list {
+    padding: 8px 0;
+    font-weight: 500;
+}
+
+.hilights .hilights-list::before {
+    content: "\2713";
+    color: blue;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
 
 
 
