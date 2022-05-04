@@ -23,7 +23,7 @@ img {
     /* test */
     /* border: 1px solid black;  */
     /* background-color: lightcoral; */
-    /* height: 100px; */
+    
 
 }
 
@@ -138,11 +138,6 @@ h1 {
 .col-small {
     width: 26%;
 
-
-    /* tes */
-    /* height: 200px;
-    background-color: pink;
-    border: 1px solid black; */
 }
 
 .col-small i {
@@ -159,10 +154,6 @@ h1 {
 .col-large {
     width: 68%;
 
-    /* test */
-    /* background-color: blueviolet;
-    height: 200px;
-    border: 1px solid; */
 }
 
 .col-large img {
@@ -313,7 +304,6 @@ h1 {
     width: 100%;
     margin-top: 20px;
     border: 1px solid #e2e2e3;
-    /* border-bottom: 1px solid ; */
 
     
 }
@@ -396,8 +386,6 @@ h1 {
     padding: 10px 10px 10px 0;
     margin-top: 30px;
 
-    /* test */
-    /* border: 1px solid red; */
 }
 
 .grid-items img {
@@ -418,6 +406,121 @@ h1 {
     font-size: 10px;
     color: #0160ff;
 }
+
+/* -----quinta sezione----- */
+
+.container-large {
+    display: flex;
+
+}
+
+.col-quinta-sezione {
+    width: calc(100% / 3);
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-quinta-sezione img {
+    width: 65%;
+
+}
+
+.square-client {
+    width: calc(100% / 2);
+    height: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 25px;
+
+
+}
+
+.client-logo {
+    padding: 20px;
+    filter: invert(1);  
+    position: relative; 
+    z-index: 2;
+}
+
+
+/* COLONNA SX */
+
+/* colonna sx quadrato in alto a sx */
+.square-client.green{
+    background-color: #a2d39b;
+}
+
+
+/* colonna sx quadrato in alto a dx */
+.square-client.garnet{
+    background-color: #61092b;
+}
+
+/* colonna sx quadrato in basso a sx */
+.square-client.lightblue {
+    background-color: #0093ce;
+    
+}
+
+/* colonna sx quadrato in basso a dx */
+.square-client.red {
+    background-color: #ff1b1c;
+}
+
+
+/* -----COLONNA CENTRALE----- */
+
+.col-quinta-sezione.centrale {
+    background-color: #f5f5f5;
+}
+
+.colonna-centrale {
+    width: 80%;
+    margin: 10px auto 30px auto;
+    
+}
+.colonna-centrale img{
+    width: 38%; 
+    filter: invert(0);
+    
+}
+
+.colonna-centrale .text {
+    padding: 50px 20px 0 20px;
+    
+}
+
+/* -----COLONNA DESTRA----- */
+
+/* colonna dx quadrato il alto a sx */
+.square-client.pastel-red {
+    background-color: #d4001f;
+    
+}
+
+/* colonna dx quadrato in alto a dx */
+.square-client.lightgray {
+    background-color:  #b3d0e7;
+  
+}
+
+/* colonna dx quadrato in basso a sx */
+.square-client.blue {
+    background-color:#0e2381;
+   
+}
+
+/* colonna dx quadrato in basso a dx */
+
+.square-client.yellow {
+    background-color: #ffd72f;
+}
+
+
+
 
 
 
