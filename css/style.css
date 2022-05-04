@@ -18,15 +18,22 @@ img {
 
 .container-small {
     width: 70%;
-    margin: 80px auto 0 auto;
+    margin: 20px auto 0 auto;
 
     /* test */
+    /* border: 1px solid black;  */
     /* background-color: lightcoral; */
+    /* height: 100px; */
 
 }
 
+.section-title{
+    font-size: 30px;
+    
+}
+
 .text {
-    font-size: 13px;
+    font-size: 11px;
     padding-bottom: 10px;
 }
 
@@ -35,6 +42,8 @@ img {
     background-color: #0160ff;
     color: white;
     padding: 6px;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* -----HEADER----- */
@@ -90,7 +99,7 @@ nav img {
 #btn-small {
     background-color: #0160ff;
     color: white; 
-    padding: 8px;
+    padding: 3px 8px;
 }
 
 /* header menu right */
@@ -105,20 +114,17 @@ nav img {
 
 /* -----MAIN----- */
 
-.margin-section{
-    margin-top:80px auto 0 auto;
-}
 
 /* -----jambotron----- */
 
 .jambotron {
-    height: 500px;
+    height: 520px;
     background-color: #b3d0e7;
     
 }
 
 h1 {
-    padding-top: 45px;
+    padding-top: 70px;
     padding-bottom: 30px;
     font-size: 56px;
 }
@@ -164,10 +170,12 @@ h1 {
 }
 
 /* -----section2----- */
-.section2-title{
-    font-size: 30px;
-    margin-top: 130px;
+
+
+.section-title.section2 {
+    margin-top: 90px;
 }
+
 
 .type-of-billing {
     font-size: 11px;
@@ -204,7 +212,7 @@ h1 {
 .offers-type {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;     
+    margin-top: 50px;     
 }
 
 /* colonne dei prodotti */
@@ -300,6 +308,97 @@ h1 {
     font-weight: 600;
 
 }
+
+.customized-products {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #e2e2e3;
+    /* border-bottom: 1px solid ; */
+
+    
+}
+
+.row-product {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-product h3{
+    font-size: 17px;
+}
+
+.row-product .btn-large {
+    width: 20%;
+}
+
+.quarto-prodotto-h3-subtitle {
+    font-size: 10px;
+    padding: 0 0 20px 20px;
+    font-weight: 600;
+}
+
+.quarto-prodotto-slogan{
+    padding: 0 0 20px 20px;
+    font-size: 10px;
+
+}
+
+/* terza sezione */
+.col-large img {
+    margin-top: 10px;
+
+}
+
+.container-small.container-small.position-relative {
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.container-small.container-small.position-relative .col-small{
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+.col-small  h3 {
+    font-size: 17px;
+}
+
+.col-small p {
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.col-small .btn-large.white {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* -----quarta sezione----- */
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+.grid-items {
+    width: calc((100% / 3) - 20px);
+    padding: 10px 10px 10px 0;
+    /* test */
+    border: 1px solid red;
+}
+
+
+
+
+
+
 
 
 
