@@ -379,6 +379,10 @@ h1 {
 
 /* -----quarta sezione----- */
 
+.container-small .section-title {
+    margin-top: 50px;
+}
+
 .grid{
     display: flex;
     justify-content: space-between;
@@ -390,8 +394,19 @@ h1 {
 .grid-items {
     width: calc((100% / 3) - 20px);
     padding: 10px 10px 10px 0;
+    margin-top: 30px;
+
     /* test */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.grid-items img {
+    width: 80%;
+   
+}
+
+.grid-items .text {
+    margin-top: 20px;
 }
 
 
