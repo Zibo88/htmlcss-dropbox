@@ -46,6 +46,12 @@ img {
     text-align: center;
 }
 
+.flex {
+    display: flex;
+}
+
+
+
 /* -----HEADER----- */
 
 header {
@@ -517,7 +523,87 @@ h1 {
 
 .square-client.yellow {
     background-color: #ffd72f;
+
 }
+
+/* porzione inferiore sezione5 */
+
+.container-large.bcg-down {
+    background-color: #b3d0e7;
+    
+}
+
+.container-small.porzione-inferiore-section5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px; 
+}
+
+.container-small.porzione-inferiore-section5 h2 {
+    color: #61092b;
+    font-size: 30px;
+}
+
+
+
+.btn-large.white {
+    background-color: #b3d0e7;
+    
+}
+
+.prova {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+/* -----sesta sezione----- */
+
+#titolo-faq {
+    padding: 70px;
+}
+
+.faq {
+    width: 90%;
+    padding-left: 70px;
+    padding-bottom: 30px;
+    
+}
+
+.faq-question.flex {
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 20px 0;
+    border-bottom: 1px solid #f4f4f4;
+    border-top: 1px solid #f4f4f4;
+}
+
+/* -----FOOTER----- */
+
+.container-large.bcg-footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-columns {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
