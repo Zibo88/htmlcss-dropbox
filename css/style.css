@@ -656,6 +656,12 @@ footer {
 .bottom-footer {
     padding-right: 5px;
     font-size: 10px;
+    vertical-align: middle;
+
+}
+
+.bottom-footer a {
+    text-decoration: none;
     color: white;
 }
 
