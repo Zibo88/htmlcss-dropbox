@@ -44,6 +44,7 @@ img {
 
 .btn-large:hover {
     color: #61092b;
+    transform: scale(1.10);
 }
 
 .white {
@@ -135,6 +136,7 @@ nav img {
 
 .header-items:hover {
     color: #0160ff;
+    
 }
 
 
@@ -185,6 +187,7 @@ h1 {
 
 .col-large img {
     width: 85%;
+    margin-top: 20px;
 }
 
 /* -----section2----- */
@@ -362,10 +365,6 @@ h1 {
 }
 
 /* terza sezione */
-.col-large img {
-    margin-top: 10px;
-
-}
 
 .container-small.container-small.position-relative {
     margin-top: 50px;
@@ -637,6 +636,7 @@ footer {
 
 .dropbox-items:hover{
     color: #0093ce;
+    
 }
 
 .footer-divider {
