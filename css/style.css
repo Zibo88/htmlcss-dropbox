@@ -120,6 +120,12 @@ nav img {
     margin-right: 10px;
 }
 
+.header-items:hover {
+    color: #0160ff;
+}
+
+
+
 /* -----MAIN----- */
 
 
@@ -150,7 +156,7 @@ h1 {
 
 .col-small i {
     margin-top: 25px;
-    font-size: 33px;
+    font-size: 28px;
 }
 
 #withdrawal {
@@ -614,6 +620,10 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 10px;
+}
+
+.dropbox-items:hover{
+    color: #0093ce;
 }
 
 .footer-divider {
