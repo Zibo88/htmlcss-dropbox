@@ -42,10 +42,18 @@ img {
     text-align: center;
 }
 
+.btn-large:hover {
+    color: #61092b;
+}
+
 .white {
     background-color: white;
     text-decoration: none;
     color: black;
+}
+
+.white:hover {
+    color: #0160ff;
 }
 
 .flex {
@@ -108,6 +116,11 @@ nav img {
     background-color: #0160ff;
     color: white; 
     padding: 3px 8px;
+}
+
+#btn-small:hover {
+    color: #61092b;
+
 }
 
 /* header menu right */
