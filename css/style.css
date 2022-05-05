@@ -457,7 +457,7 @@ h1 {
 
 .square-client {
     width: calc(100% / 2);
-    height: 155px;
+    height: 170px;
     display: flex;
     justify-content: center;
     align-items: center ;
