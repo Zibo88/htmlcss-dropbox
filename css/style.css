@@ -195,6 +195,7 @@ h1 {
 
 .section-title.section2 {
     padding-top: 90px;
+    padding-bottom: 20px; 
 }
 
 
@@ -399,6 +400,7 @@ h1 {
 
 .container-small .section-title {
     margin-top: 50px;
+   
 }
 
 .grid{
